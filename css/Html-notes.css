@@ -1,0 +1,103 @@
+body {
+	background-color: #1d446c;
+}
+
+@font-face {
+  font-family: console;
+  src: url(CONSOLA.TTF);
+}
+
+.title {
+	 font-family: console;
+	background-color: black;
+  color: #571a1a;
+  border: 2px #b19cd9;
+  padding: 10px;
+  font-weight: bold;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.para {
+	 font-family: console;
+background-color: 	#f1f1f1;
+  color: #1d446c;
+  margin:5px;
+  padding:2px;
+  font-weight: bold;
+  text-align:left;
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.video {
+	 font-family: console;
+	background-color: #f1f1f1;
+  color: #1d446c;
+  border: 2px #b19cd9;
+  margin:5px;
+  padding: 5px;
+  font-weight: bold;
+  font-family: title;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+   font-family: console;
+	background-color: #f1f1f1;
+  color: #1d446c;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+    font-family: title;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+li a {
+	font-family: console;
+background-color: #000000;
+  display: block;
+  color:	#525252;
+  padding: 16px;
+  text-decoration: none;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+li a:hover{
+	font-family: console;
+    color:#571a1a;
+	transform:scale(1.5);
+transition:transform 0.25s ease;
+}
+
+li {
+  float: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animate-in {
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,109 @@
+/* Connect 4 */
+body{
+background-image: url("https://i.pinimg.com/originals/8b/67/5e/8b675e441b9acf0aa9fbcb5027a08268.gif");
+}
+
+@font-face {
+  font-family: vcr;
+  src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+
+.title {
+	color:#FFAE42;
+	font-family: vcr;
+}
+
+
+
+h1{
+  text-align:center;
+  margin-bottom:5px;
+  font-family: vcr;
+}
+
+p.info{
+	font-family: vcr;
+  text-align:center;
+  width:400px;
+  margin:0 auto;
+  font-size:12px;
+  font-weight:bold;
+  color:#FFAE42;
+  margin-bottom:20px;
+  
+}
+
+#game-base{
+  width:640px;  
+  margin:0 auto;
+  padding-top:60px;
+}
+
+#game-table{
+  width:434px;
+  height:374px;
+  margin:0 auto;
+  background:url("images/spookokyyyyyy.png") 0 0 no-repeat;
+  position:relative;
+}
+
+.disc{
+  position:absolute;
+  z-index:-1;
+  top:-55px;
+  left:14px;
+  width:46px;
+  height:46px;
+  border-radius:46px;
+  transition:all .3s;
+}
+
+.disc.red{
+  background:#d96666;
+}
+
+.disc.yellow{
+  background:#ffeb79;
+}
+
+
+li a {
+	font-family: Neon;
+background-color: rgb(0, 0, 205, 0.5);
+  display: block;
+  color:#ff007f;
+  padding: 16px;
+  text-decoration: none;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+li a:hover{
+    color:#FFAE42;
+	transform:scale(1.5);
+transition:transform 0.25s ease;
+}
+
+li {
+  float: 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animate-in {
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

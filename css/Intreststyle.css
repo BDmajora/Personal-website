@@ -1,0 +1,146 @@
+body{
+background-color: lightblue;
+background-image: url("https://thumbs.gfycat.com/ClearCarelessBeagle-max-1mb.gif");
+background-repeat: repeat;
+}
+
+@font-face {
+  font-family: road-rage;
+  src: url(Road_Rage.otf);
+}
+
+@font-face {
+  font-family: Neon;
+  src: url(Neon.ttf);
+}
+
+.title{
+  color: #FF69B4;
+   font-family: road-rage;
+   text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.intrest {
+	color: #ff007f;
+	background-color: rgb(0, 0, 205, 0.5);
+	font-family: Neon;
+}
+
+
+.header {
+	font-family: road-rage;
+	color: #FF69B4;
+	background-color: rgb(0, 0, 205, 0.5);
+	margin:20px;
+  padding: 10px;
+  font-weight: bold;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.para {
+	font-family: Neon;
+	color: #ff007f;
+	background-color: rgb(0, 0, 205, 0.5);
+	margin:20px;
+  padding: 10px;
+  font-weight: bold;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.table2 {
+	background-color: rgb(0, 0, 205, 0.5);
+	 text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.youtube {
+	float: left;
+	 position: relative;
+	 display: inline-block;
+}
+
+.youtube2 {
+	float: right;
+	 position: relative;
+	 display: inline-block;
+}
+
+.youtube3 {
+	float: center;
+	 position: relative;
+	 display: inline-block;
+}
+
+.youtube:hover{
+	background-color: rgb(0, 0, 205, 0.5);
+    transform:scale(1.5);
+    transition:transform 0.25s ease;
+}
+
+.youtube2:hover{
+	background-color: rgb(0, 0, 205, 0.5);
+    transform:scale(1.5);
+    transition:transform 0.25s ease;
+}
+
+.youtube3:hover{
+	background-color: rgb(0, 0, 205, 0.5);
+    transform:scale(1.5);
+    transition:transform 0.25s ease;
+}
+
+
+
+img:hover {
+    background-color: rgb(0, 0, 205, 0.5);
+    transform:scale(1.5);
+    transition:transform 0.25s ease;
+}
+
+
+li a {
+	font-family: Neon;
+background-color: rgb(0, 0, 205, 0.5);
+  display: block;
+  color:	#FFAE42;
+  padding: 16px;
+  text-decoration: none;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+li a:hover{
+    color:#ff007f;
+	transform:scale(1.5);
+transition:transform 0.25s ease;
+}
+
+li {
+  float: 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animate-in {
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

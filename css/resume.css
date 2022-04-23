@@ -1,0 +1,103 @@
+body {
+	background-color: #ec2323;
+}
+
+
+
+.resume {
+	color: #ea8532;
+	border: 2px #b19cd9;
+	text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.edu {
+	color: #ea8532;
+	border: 2px #b19cd9;
+	text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.name {
+	color: #f99d53;
+	border: 2px #b19cd9;
+	text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.skills {
+  color: #f99d53;
+  border: 2px #b19cd9;
+  margin:20px;
+  padding: 10px;
+  font-weight: bold;
+  text-align:left;
+  position: relative;
+  display: inline-block;
+}
+
+.Return {
+background-color: 	#fbe5e5;
+  color: #291d2d;
+  border: 2px #b19cd9;
+  margin:20px;
+  padding: 10px;
+  font-weight: bold;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+.summary {
+  color: #f99d53;
+}
+	
+
+li a {
+background-color: 	#fbe5e5;
+  display: block;
+  color: Black;
+  padding: 16px;
+  text-decoration: none;
+  text-align:center;
+  position: relative;
+  display: inline-block;
+}
+
+li a:hover{
+    color:#52d053
+}
+
+li {
+  float: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animate-in {
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
